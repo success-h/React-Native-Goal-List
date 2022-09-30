@@ -47,7 +47,7 @@ export default function App() {
             android_ripple={{ color: "#0597e6" }}
           >
             <View style={styles.homeAddButton}>
-              <Text style={{ textAlign: "center", color: "purple" }}>
+              <Text style={{ textAlign: "center", color: "white" }}>
                 Add your goals
               </Text>
             </View>

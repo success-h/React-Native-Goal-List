@@ -5,13 +5,13 @@ export const styles = StyleSheet.create({
     paddingVertical: 50,
     paddingHorizontal: 16,
     flex: 1,
-    backgroundColor: "#48729c",
+    backgroundColor: "#0c1017",
   },
 
   goalItem: {
     marginVertical: 8,
     borderRadius: 6,
-    backgroundColor: "#174e78",
+    backgroundColor: "#77357a",
   },
 
   pressedItem: {
@@ -23,8 +23,7 @@ export const styles = StyleSheet.create({
   },
 
   homeAddButton: {
-    backgroundColor: "#ddd",
-    color: "purple",
+    backgroundColor: "#2d3540",
     shadowColor: "#ddd",
     padding: 8,
     textAlign: "center",
@@ -46,7 +45,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "start",
     alignItems: "center",
-    backgroundColor: "#3d79a1",
+    backgroundColor: "#161b22",
     padding: 16,
   },
 
