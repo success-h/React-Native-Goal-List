@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     paddingVertical: 50,
     paddingHorizontal: 16,
     flex: 1,
+    backgroundColor: "#48729c",
   },
 
   goalItem: {
@@ -17,12 +18,28 @@ export const styles = StyleSheet.create({
     opacity: 0.5,
   },
 
+  pressButton: {
+    opacity: 0.5,
+  },
+
+  homeAddButton: {
+    backgroundColor: "#ddd",
+    color: "purple",
+    shadowColor: "#ddd",
+    padding: 8,
+    textAlign: "center",
+    borderRadius: 10,
+  },
+
   input: {
-    color: "#fff",
+    color: "black",
     borderWidth: 1,
     padding: 8,
+    backgroundColor: "#e4d0ff",
     width: "100%",
-    borderColor: "#fff",
+    borderColor: "#e4d0ff",
+    borderRadius: 6,
+    fontSize: 16,
   },
 
   inputContainer: {
@@ -44,13 +61,12 @@ export const styles = StyleSheet.create({
 
   buttonContainer: {
     flexDirection: "row",
-
     marginHorizontal: 8,
     margin: 16,
   },
 
   button: {
-    backgroundColor: "#ddd",
+    backgroundColor: "#e4d0ff",
     marginHorizontal: 8,
     width: "40%",
     borderRadius: 6,
