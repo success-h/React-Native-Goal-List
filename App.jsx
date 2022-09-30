@@ -29,7 +29,6 @@ export default function App() {
   }
 
   function deleteGoalFunction(id) {
-    console.log(id);
     setCourseGoals((currentCourseGoals) =>
       currentCourseGoals.filter((goal) => goal.id !== id)
     );
